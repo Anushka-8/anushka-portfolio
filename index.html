@@ -5,52 +5,118 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anushka Nirwal | Portfolio</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f0f2f5;
       color: #333;
+      line-height: 1.6;
     }
+
     header {
       background-color: #4a90e2;
       color: white;
       padding: 2rem;
       text-align: center;
     }
+
     section {
       max-width: 900px;
       margin: 2rem auto;
-      padding: 1rem;
+      padding: 1rem 2rem;
       background: white;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
+
     h2 {
       color: #4a90e2;
+      margin-top: 0;
     }
+
     ul {
       padding-left: 1.5rem;
     }
+
     .project {
       margin-bottom: 1.5rem;
     }
+
     footer {
       text-align: center;
       margin: 2rem 0;
       font-size: 0.9rem;
     }
+
     .btn {
       display: inline-block;
       margin-top: 1rem;
-      padding: 0.5rem 1rem;
+      padding: 0.5rem 1.2rem;
       background: #4a90e2;
       color: white;
       border: none;
       border-radius: 5px;
       text-decoration: none;
     }
+
     .btn:hover {
       background: #357abd;
+    }
+
+    a {
+      word-break: break-word;
+    }
+
+    /* Responsive Styling */
+    @media (max-width: 768px) {
+      section {
+        margin: 1rem;
+        padding: 1rem;
+      }
+
+      header {
+        padding: 1.5rem 1rem;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+      }
+
+      p, li {
+        font-size: 1rem;
+      }
+
+      .btn {
+        font-size: 0.95rem;
+        padding: 0.4rem 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.1rem;
+      }
+
+      p, li {
+        font-size: 0.95rem;
+      }
+
+      .btn {
+        width: 100%;
+        text-align: center;
+      }
     }
   </style>
 </head>
@@ -108,3 +174,4 @@
   </footer>
 </body>
 </html>
+  
